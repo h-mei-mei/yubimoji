@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>手話・指文字練習</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/favicon.ico">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-3.7.0.min.js"></script>
+	<script src="js/pagemove.js"></script>
+</head>
+
+<body onload="$('main').fadeIn(500);">
+	<header>
+		<div class="wrap">
+			<div class="header-wrap">
+				<h1 class="site-title"><a href="javascript:goToIndex();">手話・指文字練習</a></h1>
+			</div>
+		</div>
+	</header>
+	
+	<main class="display-none">
+		<div class="wrap">
+			
+			<section>
+				<h2 class="sec-title">このサイトは</h2>
+				<p>
+					指文字・手話の読み取り練習サイトです。<br>
+					指文字かんたんは画像で4択問題が出題されます。<br>
+					それ以外は動画で4択問題が出題されます。
+				</p>
+			</section>
+			<section>
+				<h2 class="sec-title">問題一覧</h2>
+				<ul>
+					<li><a href="javascript:goToYubimojiEasy();" class="btn">指文字かんたん</a></li>
+					<li><a href="javascript:goToYubimojiHard();" class="btn">指文字むずかしい</a></li>
+				</ul>
+			</section>
+		</div>
+	</main>
+</body>
+</html>
